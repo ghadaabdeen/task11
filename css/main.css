@@ -1,0 +1,100 @@
+/*
+.content
+{
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+
+}
+*/
+.item /*  the parent class*/
+{
+  width: 20%;
+  height: 400px;
+  background-color: blue;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  border-radius:2px ;
+  -webkit-border-radius:2px ;
+  -moz-border-radius:2px ;
+  -ms-border-radius:2px ;
+  -o-border-radius:2px ;
+  position: relative;
+  overflow: hidden;
+
+}
+.item img{
+    width: 100%;
+    height: 100%;
+}
+.item:hover img
+{
+    transform: scale(1.3,1.3);
+    -webkit-transform: scale(1.3,1.3);
+    -moz-transform: scale(1.3,1.3);
+    -ms-transform: scale(1.3,1.3);
+    -o-transform: scale(1.3,1.3);
+}
+
+ .item .box1 /*  the child1 class*/
+{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    background-color: #f56260 ;
+    top: -100;
+    left: 53px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: all 0.5s;
+}
+.item:hover .box1 /*  the child2 class*/
+{
+  top: 0;
+}
+
+.item .box2
+{
+    width: 220px;
+    height: 90px;
+    position: absolute;
+    left: -400px;
+    bottom: 18px;
+    background-color:  #fff ;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.item:hover .box2
+{
+   left: 20px;
+}
+span{
+   color: #f44949; 
+    margin-left: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+h5{
+    font-size: 20px;
+    color: #171822;
+    font-weight: 600;
+    margin-top: 10px;
+    line-height: 1.88em;
+    margin-left: 20px;
+    margin-bottom: -2px;
+}
+
